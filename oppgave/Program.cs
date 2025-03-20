@@ -13,8 +13,8 @@ class Program
         
         int Temp = Convert.ToInt32 (Console.ReadLine());
        
-        // if (input != null && int.TryParse(input, out int Temp))
-        // {
+        if (input != null && int.TryParse(input, out int Temp))
+        {
 
 
 
@@ -57,10 +57,10 @@ class Program
                             break;
                     }
             }
-        // }
-        // else
-        // {Console.WriteLine("enter a valid number");
-        //     }
+     }
+         else
+        {Console.WriteLine("enter a valid number");
+        }
   
 
 
